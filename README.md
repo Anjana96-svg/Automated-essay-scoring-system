@@ -14,4 +14,28 @@ Performance Metrics: Achieved an MSE of 0.37 and a Q-score of 0.89 for score pre
 
 User Interface: Integrated with a Gradio-based web interface for easy essay upload, scoring, and insights visualization.
 
+🧩 Tech Stack
+
+Languages: Python
+
+Libraries: TensorFlow / Keras, NumPy, Pandas, NLTK, Scikit-learn
+
+NLP Tools: GloVe Embeddings, TF-IDF, Tokenization, Lemmatization
+
+Interface: Gradio
+
+Metrics: Mean Squared Error (MSE), Quadratic Weighted Kappa (Q-score)
+
+🚀 How It Works
+
+Input: User uploads or types an essay in the Gradio interface.
+
+Preprocessing: Text is cleaned, tokenized, and converted to GloVe vectors.
+
+Model Prediction: The trained LSTM model predicts a numerical score.
+
+Feedback Generation: TF-IDF and keyword analysis generate improvement tips.
+
+Output: Displays the predicted score and feedback instantly.
+
 <img width="940" height="324" alt="image" src="https://github.com/user-attachments/assets/9aa3d4a3-d641-4636-9ec7-dad664d9edc7" />
